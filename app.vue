@@ -1,0 +1,11 @@
+<template>
+  <div>
+  <Header/>
+    <Hero/>
+    <Expertise/>
+    <Services/>
+    <Portfolio/>
+    <Testimonials/>
+    <Contact/>
+  </div>
+</template>

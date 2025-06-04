@@ -19,7 +19,7 @@ const mobileMenu = ref(false);
 </script>
 
 <template>
-<header class="top-0 fixed w-full">
+<header class="top-0 fixed w-full z-10">
 
   <!-- Navigation -->
   <nav class="bg-white py-4 shadow">

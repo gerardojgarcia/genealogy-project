@@ -7,6 +7,7 @@
     <Services/>
     <PricingSection/>
     <Portfolio/>
+    <Team/>
     <Testimonials/>
     <Contact/>
   </div>

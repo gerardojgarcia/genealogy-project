@@ -5,39 +5,33 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/vue/24/outline';
 const testimonials = [
   {
     id: 1,
-    image: '@/assets/testimonials/person1.jpg',
+    image: '/test-woman-2.png',
     quote: 'They brought clarity to complex family histories and guided me every step of the way. I couldn’t be happier with the results.',
     name: 'Maria Hernandez',
     role: 'Entrepreneur'
   },
   {
     id: 2,
-    image: '@/assets/testimonials/person2.jpg',
+    image: '/testimonial-man.png',
     quote: 'Their meticulous research uncovered records we thought were lost forever. A truly outstanding genealogy service.',
     name: 'James O’Connor',
     role: 'Historian'
   },
   {
     id: 3,
-    image: '@/assets/testimonials/person3.jpg',
+    image: '/testimonial-woman.png',
     quote: 'Thanks to their expertise, our family tree is richer and more accurate than ever. Highly recommended!',
-    name: 'Aisha Patel',
+    name: 'Heather Burk',
     role: 'Teacher'
   },
   {
     id: 4,
-    image: '@/assets/testimonials/person4.jpg',
+    image: '/testimonial-man-2.png',
     quote: 'Integrating DNA data with archival records was seamless and enlightening. They exceeded all expectations.',
-    name: 'Liam Nguyen',
+    name: 'David Newman',
     role: 'Researcher'
   },
-  {
-    id: 5,
-    image: '@/assets/testimonials/person5.jpg',
-    quote: 'Professional, compassionate, and thorough. Our family’s story has never been clearer.',
-    name: 'Sophia Martinez',
-    role: 'Designer'
-  }
+
 ];
 
 const currentIndex = ref(0);
@@ -80,9 +74,9 @@ function prev() {
                   :alt="testimonial.name"
                   class="w-24 h-24 rounded-full mb-6 object-cover"
               />
-              <p class="text-lg italic text-gray-700 mb-6">
+              <strong class="text-lg italic text-gray-700 mb-6">
                 “{{ testimonial.quote }}”
-              </p>
+              </strong>
               <p class="font-semibold text-gray-900">{{ testimonial.name }}</p>
               <p class="text-sm text-gray-500">{{ testimonial.role }}</p>
             </div>

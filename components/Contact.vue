@@ -36,7 +36,7 @@ function submitForm() {
             <EnvelopeIcon class="h-6 w-6 text-blue-600 mr-3" />
             <div>
               <p class="text-sm font-medium">Email</p>
-              <p>hi@mecayotl.com</p>
+              <p>payanjennifer9@gmail.com</p>
             </div>
           </div>
 
@@ -44,22 +44,22 @@ function submitForm() {
             <PhoneIcon class="h-6 w-6 text-blue-600 mr-3" />
             <div>
               <p class="text-sm font-medium">Phone</p>
-              <p>+1 (555) 123-4567</p>
+              <p>+1 (323) 270-7263</p>
             </div>
           </div>
 
-          <div class="flex items-center">
+          <!-- <div class="flex items-center">
             <BuildingOffice2Icon class="h-6 w-6 text-blue-600 mr-3" />
             <div>
               <p class="text-sm font-medium">Office</p>
               <p>789 Heritage Ln, Ancestry City, CA 90210</p>
             </div>
-          </div>
+          </div> -->
 
           <div>
-            <p class="text-sm font-medium mb-2">Follow Us</p>
-            <div class="flex space-x-4">
-              <!-- Placeholder social icons -->
+            <!-- <p class="text-sm font-medium mb-2">Follow Us</p>
+             <div class="flex space-x-4"> -->
+              <!-- Placeholder social icons
               <a href="#" aria-label="Facebook" class="text-gray-500 hover:text-blue-600">
                 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M22 12..." />
@@ -80,7 +80,7 @@ function submitForm() {
                   <path d="M12 2.163..." />
                 </svg>
               </a>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>

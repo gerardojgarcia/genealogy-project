@@ -19,7 +19,7 @@ const mobileMenu = ref(false);
 </script>
 
 <template>
-<header class="top-0 fixed">
+<header class="top-0 fixed w-full">
 
   <!-- Navigation -->
   <nav class="bg-white py-4 shadow">
@@ -49,7 +49,7 @@ const mobileMenu = ref(false);
         </li> -->
 
         <li>
-          <button class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">Contact</button>
+          <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700">Contact</a>
         </li>
       </ul>
       <!-- Mobile Menu Toggle -->

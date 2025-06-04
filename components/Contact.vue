@@ -20,7 +20,7 @@ function submitForm() {
 </script>
 
 <template>
-  <section class="bg-white py-16">
+  <section class="bg-white py-16" id="contact">
     <div class="container mx-auto px-6 flex flex-col lg:flex-row gap-12">
       <!-- Contact Info -->
       <div class="lg:w-1/2">

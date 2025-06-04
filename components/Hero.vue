@@ -4,7 +4,7 @@
 
 <template>
   <!-- Hero Section -->
-  <section class="bg-gray-50">
+  <section class="bg-gray-50 mt-16">
     <div class="container mx-auto px-6 py-16 flex flex-col  items-center">
       <!-- Text -->
       <div class="flex flex-col md:flex-row justify-between mb-10">
